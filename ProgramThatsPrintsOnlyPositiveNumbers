@@ -1,0 +1,13 @@
+#Program to print all the positive numbers in a range
+l = []
+
+size = int(input('Enter the total numbers that will be inserted'))
+
+for i in range(0,size):
+    num = int(input('Enter a number '))
+    l.append(num)
+
+#processing
+for i in l:
+    if i >= 0:
+        print(i, end = ',')
